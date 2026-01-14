@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Размещение элементов</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="main-layout">
+        <!-- Блок "description" - находится слева от "classic" -->
+        <div class="description">
+            <!-- Здесь div с фотографиями, который должен быть внутри "description" -->
+            <div class="photos-container">
+                <img src="https://via.placeholder.com/400x300/FF5733/FFFFFF?text=Photo+1" alt="Photo 1" class="active">
+                <img src="https://via.placeholder.com/400x300/33FF57/FFFFFF?text=Photo+2" alt="Photo 2">
+                <img src="https://via.placeholder.com/400x300/3357FF/FFFFFF?text=Photo+3" alt="Photo 3">
+            </div>
+
+            <h2>Описание продукта/статьи</h2>
+            <p>Это подробное описание, которое будет располагаться под контейнером с фотографиями. Здесь может быть длинный текст, информация о продукте, его характеристики или любая другая соответствующая информация.</p>
+            <p>Дополнительный абзац текста для демонстрации, как содержимое будет обтекать фотографии.</p>
+        </div>
+
+        <!-- Блок "classic" - находится справа -->
+        <div class="classic">
+            <h2>Классический раздел</h2>
+            <p>Этот раздел находится справа от блока описания. Здесь может быть боковая панель, связанная информация, реклама, список ссылок или любые другие элементы, которые вы хотите разместить справа.</p>
+            <ul>
+                <li>Пункт классического раздела 1</li>
+                <li>Пункт классического раздела 2</li>
+                <li>Пункт классического раздела 3</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

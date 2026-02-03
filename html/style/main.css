@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,slnt,wdth,wght,GRAD,ROND@6..144,-10..0,25..151,1..1000,0..100,0..100&display=swap');
+* {
+  font-family: "SN Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 * {
     margin: 0;
@@ -413,4 +419,11 @@ footer .footer-container {
 
 footer .footer-container p {
     width: 500px;
+}
+
+b {
+    font-family: "SN Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }

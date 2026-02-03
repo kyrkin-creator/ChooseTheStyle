@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,slnt,wdth,wght,GRAD,ROND@6..144,-10..0,25..151,1..1000,0..100,0..100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+  font-family: "SN Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 * {
     margin: 0;
@@ -17,7 +24,15 @@ a {
 }
 
 img {
-    max-width: 100%;
+    max-width: 30%;
+    border-radius: 10px;
+    border: #000000 2px solid; 
+    transition: all 300ms;
+    margin: 30px 0px 30px 0px;
+}
+
+img:hover {
+    scale: 1.1;
 }
 
 .wrapper {
@@ -153,13 +168,17 @@ footer .footer-container p {
 } 
 
 .subtitle {
-    margin-top: 30px;
-    margin-left: 400px;
+    text-align: center;
 }
 
 .Glr-1 {
-    height: 10%;
-    width: 40%;
-    margin-left: 320px;
-    border-radius: 10px;
+    text-align: center;
 }
+
+b {
+    font-family: "SN Pro", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
